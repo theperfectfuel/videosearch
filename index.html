@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/styles.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -20,7 +21,28 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <section id="main-container">
+
+            <div id="heading">
+                <h1>Awesome YouTube Search Page.</h1>
+            </div>
+
+            <div>
+
+                <div id="search-area">
+                    <form>
+                        <input type="text" id="search">
+                        <input type="submit" class="submit">
+                    </form>
+                </div>
+
+                <div>
+                    <ul id="video-section"></ul>
+                </div>
+
+            </div> <!-- close inside container -->
+
+        </section> <!-- close main container -->
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

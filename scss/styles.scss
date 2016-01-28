@@ -4,3 +4,19 @@
 @import "base/base";
 @import "components/components";
 @import "patterns/patterns";
+
+#main-container {
+	@include outer-container(90%);
+}
+
+#video-section img {
+	padding: 10px;
+}
+
+li {
+	display: inline-block;
+}
+
+h1 {
+	font-size: 3em;
+}
